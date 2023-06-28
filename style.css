@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --cor-letras:#FFFFFF;
+    --cor-botao:#DD0021;
+    --cor-tercearia:#0A0E97;
+    --cor-background:#FFD631;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-background);
+}
+
+.container{
+    background-color: var(--cor-background);
+   
+    
+}
+
+.container__imagemCandidato{
+    position: absolute;
+    width: 1346.62px;
+    height: 880.83px;
+    left: calc(50% - 1346.62px/2 + 0.31px);
+    top: calc(50% - 880.83px/2 + 0.41px);
+    
+    
+}
+
+
+
+
+
+
+.container__botaoLink{
+    
+      /* centralizando texto */
+    
+      position: absolute;
+      left: 0%;
+      right: 0%;
+      bottom: 5%;
+      text-align: center;
+      z-index: 999;
+    
+    
+}
+
+.container__botaoLink__link{
+    
+    /* botao */
+    
+    text-decoration: none;
+    background-color: var(--cor-botao);
+    border-radius: 16px;
+    padding: 12px 34px;
+    border-radius: 20px;
+
+    /* texto */
+    color: var(--cor-letras);
+    font-family: 'Atma';
+    font-weight: 600;   
+    
+}
+
+.imagem__curriculo{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem__contato{
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-background);
+    padding-top: 100px;
+}
+
+.seta__voltar{
+   
+    padding-left: 25px; 
+    padding-top: 10px;
+
+}
+
+
+
+
